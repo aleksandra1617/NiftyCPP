@@ -40,5 +40,5 @@
 # debug information files
 *.dwo
 
-DesignPatterns/.vs
-Strings/.vs
+*/.vs
+**/x64/
