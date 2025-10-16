@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 // Described in a paper in 1995 called CRTP - Curiously Recurring Template Pattern
-// This pattern avoids using virual on functions as virtual is unperformant. 
+// This pattern avoids using virual on functions in order to improve performance. 
 
 // Limitations: 
 // Every derived type technically has a different base class. ( No array of Animals.)
